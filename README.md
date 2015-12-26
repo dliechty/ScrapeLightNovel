@@ -1,4 +1,4 @@
-# Scrape-Light-Novel
+# Scrape Light Novel
 This is a small Python script to scrape all chapters from a web-based light novel translation into one file. The goal is to convert the output into a format compatible with the amazon kindle reader, and automatically send the results to a specified kindle.
 
 The expected usage is to specify the URL of the first chapter, and the scraper starts there and follows all 'Next Chapter' links until no more content is available. It then takes the resulting output and converts to a format compatible with the kindle.
