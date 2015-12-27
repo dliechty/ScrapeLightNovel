@@ -47,3 +47,5 @@ Temporary Items
 .apdisk
 log.txt
 out.txt
+*.txt
+*.html
