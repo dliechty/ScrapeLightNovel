@@ -8,14 +8,14 @@ NOTE: The project is in its early stages. Right now it ONLY supports a single si
 Here is the usage text:
 
 ```
-usage: scrape-light-novel.py [-h] [-o OUTPUTFILE] [-s SITE] [-l LOG]
+usage: scrape-light-novel.py [-h] [-t TITLE] [-s SITE] [-l LOG]
 
 Scrape all blog content from long-running posts separate by chapters.
 
 optional arguments:
   -h, --help            show this help message and exit
-  -o OUTPUTFILE, --outputfile OUTPUTFILE
-                        Output File
+  -t TITLE, --title TITLE
+                        Title and base name of output file
   -s SITE, --site SITE  URL of first chapter to scrape.
   -l LOG, --log LOG     Log file
 ```
